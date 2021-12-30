@@ -1,0 +1,26 @@
+﻿@page
+@model ReserveRoomConfirmationModel
+@{
+  ViewData["Title"] = "Reserve Room Confirmation";
+}
+
+<h1 class="display-4">Your Room is Reserved</h1>
+<p class="lead">
+  at our Hotel
+</p>
+<p>
+  Hi @Model.FirstName,
+  </p>
+<p>
+  A Room was Reserved for you
+  on <strong>@Model.Date.ToShortDateString()</strong>.<br />
+  Your Reservation number is <strong>@Model.RoomReservationId</strong>.<br />
+  We're looking forward to seeing you!
+</p>
+<p>
+  Your Hotel team
+</p>
+
+<div>
+  <a class="btn-primary btn" style="margin-top: 25px" asp-area="" asp-page="/ReserveRoom">Reserve another Room</a>
+</div>

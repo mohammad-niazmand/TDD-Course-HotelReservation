@@ -1,0 +1,29 @@
+﻿@page
+@model RoomsModel
+@{
+  ViewData["Title"] = "Rooms";
+}
+
+<h1 class="display-4">Available Rooms</h1>
+
+<hr />
+
+<table class="table table-striped table-bordered dt-responsive nowrap">
+  <thead class="thead-light">
+    <tr>
+      <th>Room Id</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var room in Model.Rooms)
+    {
+      <tr>
+        <td>@room.Id</td>
+        <td>@room.Description</td>
+      </tr>
+    }
+  </tbody>
+</table>
+
+
