@@ -32,13 +32,13 @@ I prepared this project to teach my students writing test with the TDD method in
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/mohammad-niazmand/TDD-Course-HotelReservation.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd TDD-Course-HotelReservation
 ```
 
 Install dependencies
@@ -50,7 +50,7 @@ Install dependencies
 Start the server
 
 ```bash
-  dotnet run --project .\Hotel.Web\
+  dotnet run --project Hotel.Web
 ```
 
 
