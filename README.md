@@ -14,7 +14,7 @@ I prepared this project to teach my students writing test with the TDD method in
 
 ## Prerequisites
 - .Net 6
-- .VS 2022
+- VS 2022
 ## Acknowledgements
 
  - [The Art of Unit Testing ](https://www.amazon.com/Art-Unit-Testing-Examples-NET/dp/1933988274)
