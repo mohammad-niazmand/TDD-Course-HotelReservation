@@ -1,0 +1,15 @@
+Hotel.Core/bin/
+Hotel.Core/obj/
+Hotel.Data.Tests/bin/
+Hotel.Data.Tests/obj/
+Hotel.Data/bin/
+Hotel.Data/obj/
+Hotel.Web.Tests/bin/
+Hotel.Web.Tests/obj/
+Hotel.Web/bin/
+Hotel.Web/obj/
+.vs/
+Hotel.Services/bin/
+Hotel.Services/obj/
+Hotel.Services.Tests/bin/
+Hotel.Services.Tests/obj/
